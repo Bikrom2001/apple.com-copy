@@ -1,0 +1,368 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+img{
+    max-width: 100%;
+}
+body{
+    font-size: 14px;
+    background: #F5F5F7;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+/*  */
+
+.ok li a{
+    padding-left: 10px;
+}
+
+.carosl{
+    width: 100%;
+    height: 70px;
+    /* background-color: aqua; */
+    background-color: white;
+}
+/* store start */
+.store{
+    width: 100%;
+    height: 280px;
+    /* background-color: aqua; */
+    padding: 50px 0;
+}
+.store-text h1{
+    color: gray;
+    font-size: 45px;
+}
+
+.matn-item{
+    position: relative;
+  }
+  .about-icon i{
+    position: absolute;
+    font-size: 35px;
+    background: white;
+    padding: 5px;
+    border-radius: 50%;
+    color: rgb(0, 0, 0);
+    left: 65px;
+    top: 25px;
+  }
+  .matn-item h5 {
+    padding-left: 110px;
+    padding-top: 25px;
+    font-size: 14px;
+    padding-bottom: 0;
+}
+.matn-item p a{
+    padding-left: 110px;
+    padding-top: 0px;
+}
+.matn-item p a:hover{
+    text-decoration: underline;
+}
+.matn-item2{
+    position: relative;
+  }
+.about-icon2 i{
+    position: absolute;
+    font-size: 35px;
+    background: white;
+    padding: 5px;
+    border-radius: 50%;
+    color: rgb(0, 0, 0);
+    left: 65px;
+    top: 0px;
+  }
+  .matn-item2 h5 {
+    padding-left: 110px;
+   
+    font-size: 14px;
+    padding-bottom: 0;
+}
+.matn-item2 p a{
+    padding-left: 110px;
+    padding-top: 0px;
+    transition: 0.4s;
+}
+.matn-item2 p a:hover{
+   text-decoration: underline;
+}
+
+/* apple poducts */
+/* .owl-carousel .owl-item img {
+    display: block;
+    max-height: 78px;
+    width: auto;
+    margin: 0 auto;
+} */
+.mac img{
+    max-height: 78px;
+    width: auto;
+}
+
+.section-padding{
+   padding-left: 90px;
+   padding-bottom: 50px;
+}
+.mac h3{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(78, 78, 78);
+}
+
+/* The latest. Take a look at what’s new, right now. */
+.latest-text h2{
+    color: gray;
+    font-size: 28px;
+    padding-bottom: 25px;
+}
+.look{
+    /* background-color: aqua; */
+    width: 100%;
+    height: 400px;
+}
+.latest-product img{
+    border-radius: 15px;
+    
+}
+.img-prod {
+    position: relative;
+    cursor: pointer;
+    
+    
+  }
+  .img-prod:hover{
+    
+  }
+  .img-prod img{
+      border-radius: 15px;
+  }
+  .top-left {
+    position: absolute;
+    top:35px;
+    left: 26px;
+    line-height: 0.7;
+    
+  }
+  .top-left h2{
+      font-size: 28px;
+      font-weight: 600;
+  }
+  .top-left h3{
+    font-size: 17px;
+    color: white;
+}
+.top-left p{
+    color: rgb(134, 134, 139);;
+}
+
+/* 02 */
+.top-left2 {
+    position: absolute;
+    top:35px;
+    left: 26px;
+    line-height: 0.7;
+    
+  }
+  .top-left2 h2{
+      font-size: 28px;
+      font-weight: 600;
+  }
+  .top-left2 h3{
+    font-size: 17px;
+    color: rgb(71, 71, 71);
+    font-weight: 400;
+}
+.top-left2 p{
+    color: rgb(134, 134, 139);
+    font-size: 12px;
+    font-weight: 600;
+}
+
+  /* font-family: 'Oswald', sans-serif; */
+
+  /* Help is here. Whenever and however you need it. */
+  
+  .help{
+      padding-top: 220px;
+      padding-bottom: 50px;
+  }
+  .img-prod2 {
+    position: relative;
+    cursor: pointer;
+    
+    
+    
+    
+    
+  }
+  .img-prod2:hover{
+    
+  }
+ .img-prod2 img{
+      border-radius: 20px;  
+  } 
+
+  .top-left3 {
+    position: absolute;
+    top:70px;
+    left: 26px;
+    line-height: 0.7;
+    
+  }
+  .top-left3 h2{
+      font-size: 28px;
+      font-weight: 600;
+  }
+
+  .top-left4 {
+    position: absolute;
+    top:70px;
+    left: 26px;
+    line-height: 0.7;
+    
+  }
+  .top-left4 h2{
+      font-size: 24px;
+      font-weight: 600;
+  }
+
+  .top-left5 {
+    position: absolute;
+    top:90px;
+    left: 26px;
+    line-height: 0.7;
+    
+  }
+  .top-left5 h2{
+      font-size: 24px;
+      font-weight: 600;
+  }
+
+  /* The Apple difference. Even more reasons to shop with us. */
+  .apple{
+    padding-left: 90px;
+    padding-bottom: 50px;
+  }
+
+  /* Valentine’s Day gifts. Say it from the heart. */
+.ipone13{
+   
+    width: auto;
+    height: 230px;
+    margin: 0px auto;
+}
+
+.top-left8 {
+    position: absolute;
+    top:46px;
+    left: 26px;
+    line-height: 0.7;
+    
+  }
+  .top-left8 h2{
+      font-size: 28px;
+      font-weight: 600;
+  }
+
+  /* Do more with Apple products. Here’s where the fun begins. */
+
+  /* Shop by group. Get special pricing for students, businesses, and more. */
+  .help2 {
+    padding-top: 148px;
+    padding-bottom: 50px;
+    padding-left: 90px;
+}
+
+/* Quick Links */
+
+.help3 {
+    padding-top: 380px;
+    padding-bottom: 0px;
+   
+}
+.quick-text p{
+    font-size: 12px;
+    color: gray;
+    font-weight: 400;
+}
+
+/* apple store online */
+
+.apple-icons p{
+    font-size: 12px;
+    color: gray;
+}
+.shop h5{
+    font-size: 13px;
+    font-weight: bold;
+}
+.shop p{
+    color: gray;
+    font-size:12px;
+    cursor: pointer;
+}
+.shop p:hover{
+    text-decoration: underline;
+}
+
+
+.Apple h5{
+    font-size: 13px;
+    font-weight: bold;
+}
+.Apple p{
+    color: gray;
+    font-size:12px;
+    cursor: pointer;
+}
+.Apple p:hover{
+    text-decoration: underline;
+}
+
+.for h5{
+    font-size: 13px;
+    font-weight: bold;
+}
+.for p{
+    color: gray;
+    font-size:12px;
+    cursor: pointer;
+}
+.for p:hover{
+    text-decoration: underline;
+}
+.Account h5{
+    font-size: 13px;
+    font-weight: bold;
+}
+.Account p{
+    color: gray;
+    font-size:12px;
+    cursor: pointer;
+}
+.Account p:hover{
+    text-decoration: underline;
+}
+
+.find{
+    color: #06c;
+    cursor: pointer;
+}
+.find:hover{
+    text-decoration: underline;
+}
+
+/* footer */
+
+.hover55 a:hover{
+    text-decoration: underline;
+}
+
